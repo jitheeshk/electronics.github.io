@@ -40,7 +40,7 @@ EAGLE is a scriptable electronic design automation application with schematic ca
     * SMASH	Prepare NAME/VALUE text for moving
     * SPLIT	Bend wires/lines (tracks, nets, etc.)
     * LAYER	Create/change layer<br/>
-For more commands and their meaning [click here](http://web.mit.edu/xavid/arch/i38* 6_rhel4/help/24.htm)
+For more commands and their meaning [click here](http://web.mit.edu/xavid/arch/i386_rhel4/help/24.htm)
 
 ### Design using Eagle
 
