@@ -68,8 +68,8 @@ Once the ".gcode" file is obtained , go for the machine adjustements .
 
 * First stick the material onto the sacrificial layer using a two side tape .
 * Now we need to set the Zero point . For setting the zero point do the following :
-         * > First move the bit to the appropriate postion .
-         * > Now move the bit down and set the bit in such a position that it just touches the surface . Use a paper sheet to ensure this.<br/> 
-         * > Once this is done select "Zero axis" and check all the three axis .(Refer the image)
+         1. First move the bit to the appropriate postion .<>br/
+         2. Now move the bit down and set the bit in such a position that it just touches the surface . Use a paper sheet to ensure this.<br/> 
+         3. Once this is done select "Zero axis" and check all the three axis .(Refer the image)
          <img src="http://jitheeshk.github.io/electronics.github.io/control.png"><br/>
-         * > Now add the ".gcode file" and press start .(ShopBot key must be ON)
+* Now add the ".gcode file" and press start .(ShopBot key must be ON)
