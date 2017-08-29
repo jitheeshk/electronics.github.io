@@ -48,7 +48,14 @@ For more commands and their meaning [click here](http://web.mit.edu/xavid/arch/i
     
 #### Steps for designing using Eagle
 
-
+* Add the required libraries. "fab.lbr" library could be obtained [here](https://github.com/Academany/FabAcademany-Resources/blob/master/files/fab.lbr).Just copy the entire text into a text document named "fab.lbr".
+* Now in "Library" click manage library and add "fab.lbr" or mannually place the "fab.lbr"
+ in C:\EAGLE 8.2.2\lbr\ltspice location .
+* Add components using add command and desigh the circuit . Use "label" and "Name" commands to name the terminals .
+<img src="http://jitheeshk.github.io/electronics.github.io/Screenshot (46).png">
+* Once the circuit is designed make some fine adjustments and select "Layer"
+ from "View" . Choose the dimensions for layout and save the file for the trace .
+ 
 ### Milling using ShopBot
 
    Almost all machines accepts ".gcode" file for operations . Similarly the ShopBot also accepts the ".gcode" file for PCB milling . Hence the circuit design in any of the format must be converted to ".gcode" format . Thus we use [fabmodules.org](http://fabmodules.org/)
