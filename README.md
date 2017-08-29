@@ -60,7 +60,7 @@ For more commands and their meaning [click here](http://web.mit.edu/xavid/arch/i
 * Now select the output format. Here we selected the ".sbp" format .
 * Finally the process need to be selected. Here we selected "Foam(rough cut 1/8)".
 *NOTE : Here ShopBot is not meant for PCB milling . Hence we need to set the measures by our own .Figure shows the measures.
-<img src="http://jitheeshk.github.io/electronics.github.io/">
+<img src="http://jitheeshk.github.io/electronics.github.io/Screenshot (45).png">
 
 Once the ".gcode" file is obtained , go for the machine adjustements .
 
@@ -69,7 +69,7 @@ Once the ".gcode" file is obtained , go for the machine adjustements .
 * First stick the material onto the sacrificial layer using a two side tape .
 * Now we need to set the Zero point . For setting the zero point do the following :
          * First move the bit to the appropriate postion .
-         * Now move the bit down and set the bit in such a position that it just touches the surface . Use a paper sheet to ensure this .
+         * Now move the bit down and set the bit in such a position that it just touches the surface . Use a paper sheet to ensure this. 
          * Once this is done select "Zero axis" and check all the three axis .(Refer the image)
          <img src="http://jitheeshk.github.io/electronics.github.io/control.png">
          * Now add the ".gcode file" and press start .(ShopBot key must be ON)
