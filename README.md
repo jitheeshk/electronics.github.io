@@ -44,6 +44,32 @@ For more commands and their meaning [click here](http://web.mit.edu/xavid/arch/i
 
 ### Design using Eagle
 
-    Here we designed a cicuit consisting two LEDs and a microcontroller . Capacitors were used to increase the life of the circuit .
+   Here we designed a cicuit consisting two LEDs and a microcontroller . Capacitors were used to increase the life of the circuit .
     
 #### Steps for designing using Eagle
+
+
+### Milling using ShopBot
+
+   Almost all machines accepts ".gcode" file for operations . Similarly the ShopBot also accepts the ".gcode" file for PCB milling . Hence the circuit design in any of the format must be converted to ".gcode" format . Thus we use [fabmodules.org](http://fabmodules.org/)
+
+#### Steps for the generating ".gcode" file 
+
+* Open fabmodules.org.
+* Now select the input, either as image(.png or jpeg), drawing or mesh etc ...
+* Now select the output format. Here we selected the ".sbp" format .
+* Finally the process need to be selected. Here we selected "Foam(rough cut 1/8)".
+*NOTE : Here ShopBot is not meant for PCB milling . Hence we need to set the measures by our own .Figure shows the measures.
+<img src="http://jitheeshk.github.io/">
+
+Once the ".gcode" file is obtained , go for the machine adjustements .
+
+#### Steps for PCB milling
+
+* First stick the material onto the sacrificial layer using a two side tape .
+* Now we need to set the Zero point . For setting the zero point do the following :
+         * First move the bit to the appropriate postion .
+         * Now move the bit down and set the bit in such a position that it just touches the surface . Use a paper sheet to ensure this .
+         * Once this is done select "Zero axis" and check all the three axis .(Refer the image)
+         <img src="http://jitheeshk.github.io/">
+         * Now add the ".gcode file" and press start .(ShopBot key must be ON)
