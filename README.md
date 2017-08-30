@@ -80,3 +80,15 @@ Once the ".gcode" file is obtained , go for the machine adjustements .
          3. Once this is done select "Zero axis" and check all the three axis .(Refer the image)
          <img src="http://jitheeshk.github.io/electronics.github.io/control.png"><br/>
 * Now add the ".gcode file" and press start .(ShopBot key must be ON)
+
+## PCB programmer
+
+### Downloadable Files
+
+<b>Image File</b>
+* [Trace]()
+* [Cut]()
+<b>ShopBot File</b>
+* [Trace]()
+* [Cut]()
+
