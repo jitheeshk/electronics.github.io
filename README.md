@@ -87,7 +87,8 @@ Once the ".gcode" file is obtained , go for the machine adjustements .
 
 <b>Image File</b>
 * [Trace](https://jitheeshk.github.io/electronics.github.io/fts_mini_trace.png)
-* [Cut](https://jitheeshk.github.io/electronics.github.io/fts_mini_cut.png)<br/>
+* [Cut](https://jitheeshk.github.io/electronics.github.io/fts_mini_cut.png)
+
 <b>ShopBot File</b>
 * [Trace](https://jitheeshk.github.io/electronics.github.io/fts_mini_trace.sbp)
 * [Cut](https://jitheeshk.github.io/electronics.github.io/fts_mini_cut.sbp)
